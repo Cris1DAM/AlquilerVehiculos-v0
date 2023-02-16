@@ -41,7 +41,7 @@ public class Clientes {
 			return copiaProfundaClientes(coleccionClientes);
 		}
 		
-		public int getNumClientes() {
+		public int getCantidad() {
 			return ((ArrayList) coleccionClientes).size();
 		}
 		
