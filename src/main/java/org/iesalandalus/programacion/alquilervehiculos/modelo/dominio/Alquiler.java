@@ -1,4 +1,4 @@
-package org.iesalandalus.programacion.alquilervehiculos;
+package org.iesalandalus.programacion.alquilervehiculos.modelo.dominio;
 
 import java.time.LocalDate;
 import java.time.Period;
@@ -60,12 +60,6 @@ public class Alquiler {
 		
 	}
 
-	private void setCliente(Object object) {
-		// TODO Auto-generated method stub
-		
-	}
-
-
 	private void setTurismo(Turismo turismo) {
 		// TODO Auto-generated method stub
 		
@@ -116,6 +110,14 @@ public class Alquiler {
 	public String toString() {
 		return "Alquiler [PRECIO_DIA=" + PRECIO_DIA + ", fechaAlquiler=" + fechaAlquiler + ", fechaDevolucion="
 				+ fechaDevolucion + "]";
+	}
+
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
 	}
 		
 }
