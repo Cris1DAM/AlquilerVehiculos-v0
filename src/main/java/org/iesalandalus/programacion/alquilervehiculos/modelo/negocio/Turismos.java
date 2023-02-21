@@ -5,8 +5,6 @@ import java.util.Collection;
 import java.util.List;
 
 import javax.naming.OperationNotSupportedException;
-
-import org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Cliente;
 import org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Turismo;
 
 public class Turismos {
